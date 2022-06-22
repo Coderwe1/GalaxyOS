@@ -36,7 +36,19 @@ grid-template-rows: 1fr;
 grid-column-gap: 0px;
 grid-row-gap: 0px;
 }
+
+@media only screen and (max-width: 600px) {
+  .article{
+    width: 100%;
+    display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: 2fr;
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+}
+}
 .section{
+    font-size: 100%;
     display: inline-block;
     width: 90%;
     vertical-align: text-top;
@@ -81,4 +93,16 @@ a{
 }
 a:hover{
   color:grey;
+}
+
+#toggle{
+  transition: all 0.3s ease 0s;
+  color: var(--background-color);
+  background-color: var(--color);
+  border-radius: 15px;
+  border: none;
+  padding: 1rem;
+}
+#toggle:hover{
+  color: cadetblue;
 }
