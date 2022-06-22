@@ -1,6 +1,8 @@
-*{color: red}
+*{
+  color: red
+}
 /* just testing /*
 
-.link-4{
-display:block;
+.section{
+  display:block;
 }
