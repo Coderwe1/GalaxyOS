@@ -4,3 +4,4 @@
 
 ##### Info for collaborators:
 ###### style.css is for large screens, style2.css is for under 300px
+###### DO NOT commit to main branch without authorization
