@@ -255,4 +255,8 @@ grid-template-rows: 2fr;
 grid-column-gap: 0;
 grid-row-gap: 0;
 }
+  form{
+    border:solid black 1px;
+    width: 99%;
+    border-radius: 0.2rem;
   }
