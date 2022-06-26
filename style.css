@@ -61,7 +61,7 @@
 /*upcoming*/
 
 .section{
-  background-color: var(--da);
+  background-image: linear-gradient(130deg, var(--da), var(--da-2));
   height: 25rem;
   padding: 8rem;
   text-align: center;
