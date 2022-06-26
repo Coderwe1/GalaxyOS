@@ -1,0 +1,21 @@
+:root{
+    --background-color:white;
+    --color:black;
+    --shadow:grey;
+    --transparent:rgba(0, 0, 0, 0.2);
+    --a:#404040;
+    --d:rgb(30, 166, 176);
+    --da:rgb(84, 221, 171);
+
+}
+.darkmode{
+    --background-color:black;
+    --color:white;
+    --shadow: grey;
+    --transparent:rgba(0, 0, 0, 0.2);
+    --a:#b3b3b3;
+    --d:rgb(6, 84, 90);
+    --da:rgb(39, 112, 91);
+
+
+}
