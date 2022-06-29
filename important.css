@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+body{
+    background-image: url("https://newevolutiondesigns.com/images/freebies/galaxy-wallpaper-31.jpg");
+    background-position:bottom;
+    background-repeat:repeat-y;
+    background-size: 100%;
+    backdrop-filter: blur(9px);
+
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--background-color);
+    color: var(--color);
+}
