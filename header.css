@@ -71,7 +71,7 @@
     
     z-index: 50;
     top: 0;
-    position: fixed;
+    position: static;
     font-family: "montserrat", sans-serif;
     display: flex;
     justify-content: space-between;
