@@ -2,10 +2,10 @@
 document.getElementById("h_t").innerHTML="GalaxyOS";
 document.getElementById("li_1").innerHTML="Home";
 document.getElementById("li_2").innerHTML="About";
-document.getElementById("li_3").innerHTML="Contact";
-document.getElementById("d").innerHTML="Link";
+document.getElementById("li_3").innerHTML="Thread";
+document.getElementById("d").innerHTML="More";
 document.getElementById("d_1").innerHTML="Offical Studio";
-document.getElementById("d_2").innerHTML="Forum";
+document.getElementById("d_2").innerHTML="";
 document.getElementById("d_3").innerHTML="Terminal Version";
 document.getElementById("l").innerHTML="Links";
 document.getElementById("l_1").innerHTML="Home";
