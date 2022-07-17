@@ -1,6 +1,6 @@
 .ul1{
     display: inline-block;
-    margin: 1.5rem;
+  margin: 1.5rem;
   }
   .footer_ul{
     list-style: none;
@@ -9,18 +9,19 @@
   .footer_ul a{
     text-decoration: none;
     color: var(--a);
+    font-size: small;
+    font-weight: 100;
+
   }
   .ul1_p{
     color: var(--color);
+    font-weight: bolder;
   }
+
   .footer_ul a:hover{
     text-decoration: none;
     color: var(--color);
   }
   .footer{
-    position:absolute;
-    bottom:auto;
-    width: 100%;
-    margin-top: 1.5rem;
-    border-top: solid var(--color) 1px;
+    background-color: var(--footer-color);
   }
