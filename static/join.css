@@ -23,7 +23,7 @@ grid-row-gap: 1rem;
     }
   }
 .section{
-    background-color: #33b5e5;
+    background-color:#0d171a;
     display: inline-block;
     width: 100%;
     vertical-align: text-top;
@@ -38,7 +38,7 @@ grid-row-gap: 1rem;
 
 }
 .section:hover{
-    background-color: #5d9db4;
+    background-color: #1b2e34;
 }
 .section_title_desc{
     text-align: left;
