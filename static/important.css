@@ -9,7 +9,11 @@
 }
 body{
     font-family: 'Montserrat', sans-serif;
-    background-color: var(--r);
+    background-color: var(--background-color);
     color: var(--color);
     max-width: 100%;
+}
+.span{
+    font-weight: 100;
+    font-size: small;
 }
