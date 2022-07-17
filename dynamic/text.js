@@ -1,32 +1,15 @@
-//titles
-
-
-
-//logo
-document.getElementById("h_t").innerHTML="GalaxyOS";
-
 //header
 //li left
 document.getElementById("li_1").innerHTML="Home";
 document.getElementById("li_2").innerHTML="About";
 document.getElementById("li_3").innerHTML="Contact";
-
 //drop down
-document.getElementById("d").innerHTML="Links";
-document.getElementById("d_1").innerHTML="Offical Studio";
+document.getElementById("d_1").innerHTML="Studio";
 document.getElementById("d_2").innerHTML="Forum";
-document.getElementById("d_3").innerHTML="Terminal Version";
-document.getElementById("d_4").innerHTML="Settings";
-
-
-
-
-
-//footer
+document.getElementById("d_3").innerHTML="Terminal";
 //group1
 document.getElementById("l").innerHTML="Links";
 document.getElementById("l_1").innerHTML="Home";
-
 document.getElementById("l_2").innerHTML="About";
 document.getElementById("l_3").innerHTML="Forum";
 document.getElementById("l_4").innerHTML="Terminal Version";
@@ -47,5 +30,3 @@ document.getElementById("l3_4").innerHTML="GitHub";
 document.getElementById("l3_5").innerHTML="Repl";
 //toggle
 document.getElementById("togglebutton").innerHTML="DarkMode";
-
-
