@@ -1,6 +1,8 @@
 :root{
-    --background-color:white;
-    --color:black;
+    --header-color:#b6b6b6;
+    --footer-color:#c4c4c4;
+    --background-color:#d5d5d5;
+    --color:rgb(7, 12, 23);
     --shadow:grey;
     --transparent:rgba(0, 0, 0, 0.2);
     --a:#404040;
@@ -15,11 +17,13 @@
 
 }
 .darkmode{
-    --background-color:black;
-    --color:white;
+    --background-color:#121212;
+    --header-color:#0c0c0c;
+    --footer-color:#1d1d1d;
+    --color:#bdbdbd;
     --shadow: grey;
     --transparent:rgba(0, 0, 0, 0.2);
-    --a:#acacac;
+    --a:#404040;
     --d:rgb(6, 84, 90);
     --da:rgb(39, 112, 91);
     --da-2:rgb(20, 42, 168);
