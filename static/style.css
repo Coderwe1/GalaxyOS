@@ -219,7 +219,7 @@ grid-row-gap: 0;
   text-align: center;
 
 }
-
-
-
-
+.top{
+  border-bottom: var(--color) solid 8px;
+  padding-bottom: 5rem;
+}
