@@ -6,6 +6,7 @@ html{
 body{
     margin: 0;
     padding: 0;
+    max-width: 100%;
     font-family: 'Roboto', sans-serif;
     background-color: black!important;
     color: #E5F4F4!important;
@@ -39,12 +40,12 @@ header nav button{
 header nav button strong{
     text-transform: uppercase;
 }
-header nav button span{
-    margin: 0.3rem;
+.span{
     position: absolute;
-    top: 0;
+    top: 1%;
+    left: 90%;
+    transform: translatex(-10%);
     font-size:xx-small;
-    right: 0;
     color: #121212;
     padding: 0.1rem;
     background-color: #F9F871;
@@ -118,3 +119,90 @@ a{
     border-radius: 5px;
     padding:0.2rem;
 }
+
+.container {
+    display: none;
+    cursor: pointer;
+  }
+  
+  .bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #E5F4F4;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  
+  .change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+  }
+  
+  .change .bar2 {opacity: 0;}
+  
+  .change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+  }
+
+
+  @media (max-width:700px) {
+    .container{
+        display: inline-block;
+        background-color: #121212;
+        border-radius: 5px;
+        padding: 0.4rem;
+    }
+    .header{
+        width: 100%;
+    }
+    
+    nav{
+        padding: 1rem 0rem;
+        z-index: 1000000;
+        width: 100%;
+        background-color: #121212;
+        position:absolute;
+        top: 0;
+        margin-top: 5rem;
+        left: 50%;
+        transform: translateX(-50%);
+        display: none;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    
+    .w{
+        text-decoration: none;
+        color: #E5F4F4;
+        padding: 1rem;
+        padding-bottom: 0.4rem;
+        border-bottom:#121212 3px solid;
+        transition: 0.5s ease;
+    }
+    .n{
+        margin-top: 4rem;
+    }
+    .m{
+        display: flex;
+    }
+    .span{
+        position: absolute;
+        top: 79%;
+        font-size:xx-small;
+        left: 50%;
+        transform: translateX(-50%);
+        transform: translateY(-21%);
+        color: #121212;
+        padding: 0.1rem;
+        background-color: #F9F871;
+        border-radius: 5px;
+    }
+  }
+.s{
+    display: block;
+    margin: 0 auto;
+}
+
+
