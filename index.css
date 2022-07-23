@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html{
+    scroll-behavior:smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: black!important;
+    color: #E5F4F4!important;
+
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.9rem;
+}
+.w{
+    text-decoration: none;
+    color: #E5F4F4;
+    padding: 1rem;
+    padding-bottom: 0.4rem;
+    border-bottom: black 3px solid;
+    transition: 0.5s ease;
+}
+.w:hover{
+    border-bottom: #E5F4F4 3px solid;
+}
+
+header nav button{
+    border-radius: 5px;
+    border: none;
+    color: #E5F4F4;
+    background-color: #00C6CF;
+    padding: 0.4rem;
+}
+header nav button strong{
+    text-transform: uppercase;
+}
+header nav button span{
+    margin: 0.3rem;
+    position: absolute;
+    top: 0;
+    font-size:xx-small;
+    right: 0;
+    color: #121212;
+    padding: 0.1rem;
+    background-color: #F9F871;
+    border-radius: 5px;
+}
+a{
+    text-decoration: none;
+}
+.title{
+    color: rgb(211, 206, 206);
+    transition: 0.5s;
+    cursor: pointer;
+}
+.title:hover{
+    color: #E5F4F4;
+}
+/*article*/
+.article{
+    text-align: center;
+    padding-bottom: 5rem;
+}
+.a-t span{
+    font-weight: 100;
+    font-size:1rem;
+}
+.gOS-title{
+    font-size:xx-large;
+    font-weight: 300;
+   
+}
+.gOS{
+    background: -webkit-linear-gradient(#00BF8F, #001510);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.p{
+    padding: 7rem;
+}
+.h1{
+    font-size: xx-large;
+}
+.imgimport{
+    background: linear-gradient(#00BF8F, #001510);
+    border-radius: 15px;
+}
+.imgimport img{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.part{
+    background-color: black!important;
+    padding: 4rem 0rem;
+}
+.img{
+    filter: drop-shadow(0px 0px 4px #FF0000) 
+    drop-shadow(0px 0px 4px #FF7F00)  
+    drop-shadow(0px 0px 4px #FFFF00)  
+    drop-shadow(0px 0px 4px #00FF00)  
+    drop-shadow(0px 0px 4px #0000FF)  
+    drop-shadow(0px 0px 4px #2E2B5F)  
+    drop-shadow(0px 0px 4px #8B00FF) ;
+}
+
+.btn{
+    display: block;
+    margin: 0 auto;
+    background-color: #00C6CF;
+    color: #E5F4F4;
+    border: none;
+    border-radius: 5px;
+    padding:0.2rem;
+}
