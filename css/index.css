@@ -101,8 +101,8 @@ a{
     padding: 4rem 0rem;
 }
 .img{
-    filter: drop-shadow(0px 0px 4px #001510)
-        drop-shadow(0px 0px 4px #00BF8F);
+    filter: drop-shadow(0px 0px 14px #001510)
+        drop-shadow(0px 0px 14px #00BF8F);
         
         /*drop-shadow(0px 0px 4px #FF0000) 
     drop-shadow(0px 0px 4px #FF7F00)  
