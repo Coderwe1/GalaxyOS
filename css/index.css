@@ -101,7 +101,13 @@ a{
     padding: 4rem 0rem;
 }
 .img{
-    filter: drop-shadow(linear-gradient(#00BF8F, #001510))
+    filter: drop-shadow(0px 0px 4px #00bf8f) 
+    drop-shadow(0px 0px 4px #009f79)  
+    drop-shadow(0px 0px 4px #028164)  
+    drop-shadow(0px 0px 4px #07634e)  
+    drop-shadow(0px 0px 4px #094739)  
+    drop-shadow(0px 0px 4px #092d25)  
+    drop-shadow(0px 0px 4px #001510)
         /*drop-shadow(0px 0px 4px #FF0000) 
     drop-shadow(0px 0px 4px #FF7F00)  
     drop-shadow(0px 0px 4px #FFFF00)  
