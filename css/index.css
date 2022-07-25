@@ -103,14 +103,6 @@ a{
 .img{
     filter: drop-shadow(0px 0px 14px #001510)
         drop-shadow(0px 0px 14px #00BF8F);
-        
-        /*drop-shadow(0px 0px 4px #FF0000) 
-    drop-shadow(0px 0px 4px #FF7F00)  
-    drop-shadow(0px 0px 4px #FFFF00)  
-    drop-shadow(0px 0px 4px #00FF00)  
-    drop-shadow(0px 0px 4px #0000FF)  
-    drop-shadow(0px 0px 4px #2E2B5F)  
-    drop-shadow(0px 0px 4px #8B00FF) ;*/
 }
 
 .btn{
