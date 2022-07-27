@@ -14,8 +14,18 @@
     text-align: center;
     border-radius: 5px;
 }
-
-@media (max-width:700px){
+@media (max-width:400px){
+    .grid{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 16fr;
+    grid-column-gap: 0.4rem;
+    grid-row-gap: 1rem;
+    margin-right: 2%;
+    margin-left: 2%;    
+}
+}
+@media (min-width:400px){
     .grid{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -56,4 +66,3 @@
     }
     
 }
-
