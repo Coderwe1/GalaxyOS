@@ -13,6 +13,7 @@ body{
 
 }
 header{
+
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -51,6 +52,7 @@ header nav button strong{
     background-color: #F9F871;
     border-radius: 5px;
 }
+
 a{
     text-decoration: none;
 }
@@ -77,37 +79,26 @@ a{
    
 }
 .gOS{
-    background: -webkit-linear-gradient(#00BF8F, #001510);
-    -webkit-background-clip: text;
+    background-image: linear-gradient(60deg, #00BF8F, #001510);
     background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    color: transparent;
 }
 .p{
-    padding: 7rem;
+    padding: 7rem 0rem;
 }
-.h1{
-    font-size: xx-large;
-}
+
 .imgimport{
-    background: linear-gradient(#00BF8F, #001510);
+    border: #121212 3px solid;
     border-radius: 15px;
 }
 .imgimport img{
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
 }
-.part{
-    background-color: black!important;
-    padding: 4rem 0rem;
-}
+
 .img{
-    filter: drop-shadow(0px 0px 4px #00bf8f) 
-    drop-shadow(0px 0px 4px #009f79)  
-    drop-shadow(0px 0px 4px #028164)  
-    drop-shadow(0px 0px 4px #07634e)  
-    drop-shadow(0px 0px 4px #094739)  
-    drop-shadow(0px 0px 4px #092d25)  
-    drop-shadow(0px 0px 4px #001510) ;
+    filter: drop-shadow(0px 0px 4px #e5f4e5);
 }
 
 .btn{
@@ -149,7 +140,7 @@ a{
   @media (max-width:700px) {
     .container{
         display: inline-block;
-        background-color: #121212;
+        background-color: black;
         border-radius: 5px;
         padding: 0.4rem;
     }
@@ -161,7 +152,7 @@ a{
         padding: 1rem 0rem;
         z-index: 1000000;
         width: 100%;
-        background-color: #121212;
+        background-color: black;
         position:absolute;
         top: 0;
         margin-top: 5rem;
@@ -178,7 +169,7 @@ a{
         color: #E5F4F4;
         padding: 1rem;
         padding-bottom: 0.4rem;
-        border-bottom:#121212 3px solid;
+        border-bottom:black 3px solid;
         transition: 0.5s ease;
     }
     .n{
@@ -199,8 +190,38 @@ a{
         background-color: #F9F871;
         border-radius: 5px;
     }
+    .d{
+        font-size: smaller;
+    }
+    #d1{
+        margin-top: 20rem;
+    }
   }
-.s{
-    display: block;
-    margin: 0 auto;
+
+.h1{
+    font-size:50px;
 }
+.group{
+    margin-top: 10rem;
+}
+#d1{
+    margin-top: 10rem;
+}
+
+
+.part{
+    background-color: black;
+    width: 100%;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+
+@media (max-width:500px) {
+   .part{
+    padding-bottom: 7rem;
+   }
+  }
