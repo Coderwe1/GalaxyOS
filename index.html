@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/index.css">
     <script src="js/index.js" defer></script>
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
-        <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
     <link rel="manifest" href="favicon/site.webmanifest">
@@ -37,15 +37,15 @@
     </header>
     <article class="article">
        
-      <div class="part" >
+      <div class="part" id="part">
 
-      <h2 class="gOS-title gOS">Fast. Simple.</h2>
+      <h2 class="gOS-title gOS">Fast.Simple</h2>
         <img class="img" src="gOS.png" width="30%" style="border-radius: 5px;" alt="">
         <h2 class="gOS">gOS<br><span>__</span></h2>
         <p><span class="gOS">gOS</span> is GalaxyOS offical OS in the making.</p>
       </div>
 
-        <div class="p s">
+        <div class="p s" id="d1">
 
         <h1 class=" h1 gOS">SuperCharged using TurboWarp</h1>
         <span class="gOS  ">______</span>
@@ -53,32 +53,32 @@
     </div>
 
 
-    <div class="p s">
+    <div class="p s" id="d2">
 
-        <h1 class=" h1 gOS">Including friendly GUI</h1>
+        <h1 class=" h1 gOS">Including friendly gui</h1>
         <span class="gOS ">______</span>
 
     </div>
 
-    <div class="p s">
+    <div class="p s" id="d3">
 
         <h1 class=" h1 gOS">Made by the brightest minds</h1>
         <span class="gOS  ">______</span>
 
     </div>
+<div class="group">
 
-
-    <h1 style="text-align: center; margin: 3rem;">Screenshots</h1>
+    <h1 class="d" style="text-align: center; margin: 3rem;">Screenshots</h1>
       
   <div class="swiper mySwiper align">
 
     <div class="swiper-wrapper">
       <div class="swiper-slide imgimport">
-        <img src="dfklsd.png" width="80%" alt="">
+        <img src="dfklsd.png" width="40%" alt="">
         <p>Clock</p>
       </div>
       <div class="swiper-slide imgimport">    
-        <img src="gkl.png" width="80%" alt="">
+        <img src="gkl.png" width="40%" alt="">
         <p>Calculator</p>
     </div>
      
@@ -87,7 +87,7 @@
 
     
   </div>
-
+</div>
   
     <!-- Swiper JS -->
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
@@ -110,24 +110,8 @@
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
       },
-      breakpoints: {
-  // when window width is >= 320px
-  620: {
-    slidesPerView: 1,
-    spaceBetween: 5
-  },
-  // when window width is >= 480px
-  820: {
-    slidesPerView:1,
-    spaceBetween:10
-  },
-  // when window width is >= 640px
-  1000: {
-    slidesPerView: 2,
-    spaceBetween: 10
-  }
- 
-}
+      slidesPerView: 1,
+
     });
 
 
@@ -137,9 +121,20 @@
 
 
 </article>
-  <a href="#top"><button class="btn">Go back up
-  </button>
-  </a>
+<script>
+  let part= document.getElementById("part");
+
+  window.addEventListener('scroll', function(){
+    let scrollY= window.scrollY;
+    
+    
+    part.style.top= 20+scrollY*-0.9+'%';
+  
+
+
+  })
+
+</script>
 
 </body>
 </html>
